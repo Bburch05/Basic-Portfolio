@@ -9,3 +9,14 @@
     background-color: green;
     padding: 15px 0px;
 } */
+
+body {
+    background-image: url("assets/images/background.png");
+    background-repeat: repeat;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
